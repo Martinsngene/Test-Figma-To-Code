@@ -1,0 +1,425 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+.nav-link-container{
+	margin-left: 5rem;
+}
+
+
+nav{
+	height: 5rem;
+	padding: 0.5rem;
+}
+
+main{
+	overflow-x: hidden;
+}
+
+#menu-container img{
+	width: 2rem;
+}
+
+.section-1{
+	height: 768px;
+	background-color: #490202;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.section-1-sub{
+	margin-bottom: 15%;
+	text-align: center;
+	width: 60%;
+}
+
+.section-1-sub h1{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.section-1-sub p{
+	font-size: 1.2rem;
+}
+
+.section-2{
+	height: 768px;
+	background:url(../icons/section-2-bg.png) center center/cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-2 img{
+	margin-bottom: 1rem;
+}
+
+.section-2 h4{
+	font-weight: 700;
+}
+
+#form-container{
+	background-color: #fff;
+	color: #757575;
+	height: 620px;
+	padding-top: 5rem;
+	border-radius: 0.5rem;
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-custom{
+	color: #fff;
+	background-color: #ed252f;
+	border: none;
+	width: 120px;
+	height: 40px;
+	border-radius: 0.5rem;
+}
+
+.form-container input{
+	height: 50px;
+	width: 100%;
+}
+
+.custom-txt{
+	background: linear-gradient(263.99deg, #ED252F -0.74%, #ED6D25 99.35%);
+	width: 200px;
+}
+
+footer{
+	background: #000;
+	opacity: 0.9;
+	padding: 3rem;
+}
+
+
+.fab{
+	color: #fff;
+	z-index: 3;
+	font-size: 1.2rem;
+}
+
+.social{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.social li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	background: linear-gradient(to right bottom,
+	 rgba(255, 255, 255, 0.1),
+	 rgba(255, 255, 255, 0.1));
+	border-radius: 50%;
+}
+
+.logo-container{
+	margin-bottom: 1rem;
+}
+
+.small-input input{
+	color: rgba(255, 255, 255, 1);
+	font-size: 0.9rem;
+	font-size: 0.9rem;
+	background: #fff;
+	background: linear-gradient(to right bottom,
+	  rgba(255, 255, 255, 0.1),
+	  rgba(255, 255, 255, 0.1));
+	border: none;
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+}
+
+.send-msg{
+	margin-top: 20px !important;
+}
+
+.send-msg input{
+	color: rgba(255, 255, 255, 1);
+	font-size: 0.9rem;
+	background: #fff;
+	background: linear-gradient(to right bottom,
+	  rgba(255, 255, 255, 0.1),
+	  rgba(255, 255, 255, 0.1));
+	border: none;
+	width: 80%;
+	height: 40px;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	outline: none;
+}
+
+.send-msg .input{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.footer-1, .footer-2, .footer-3{
+	color: rgba(255, 255, 255, 1);
+}
+
+
+.send-msg button{
+	border: none;
+	color: #fff;
+	width: 20%;
+	background: #ed252f;
+	border-top-right-radius: 0.3rem;
+	border-bottom-right-radius: 0.3rem;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+
+.send-msg button:hover{
+	background: #ed252f;
+	color: #fff;
+}
+
+
+@media(min-width: 968px){
+
+	#menu-container{
+		display: none;
+	}
+}
+
+@media(max-width: 968px){
+
+	nav{
+		height: 3rem;
+	}
+
+	.section-1 h1{
+		font-size: 1.5rem;
+	}
+
+	.section-1 p{
+		font-size: 0.9rem;
+	}
+
+	.section-1-sub{
+	margin-bottom: 75%;
+}
+
+.section-1-sub h1{
+	margin-bottom: 0.2rem;
+}
+
+.section-2 img{
+	margin-bottom: 0.3rem;
+}
+
+	.section-2 h4{
+		font-size: 0.9rem;
+	}
+
+	.section-2 p{
+		font-size: 0.8rem;
+		margin-bottom: 3px;
+	}
+
+	#section-2{
+		padding-top: 10.5rem;
+	}
+
+	#form-container{
+		transform: scale(0.9);
+		z-index: 10;
+	}
+
+	.section-2{
+	font-size: 0.9rem;
+	}
+
+	.logo img{
+		width: 200px;
+	}
+
+	.footer-1 p{
+		font-size: 0.8rem;
+	}
+
+	.footer-1 h4{
+		font-size: 0.9rem;
+	}
+
+	.footer-2 p{
+		font-size: 0.8rem;
+	}
+
+	.footer-2 h4{
+		font-size: 0.9rem;
+	}
+
+	.footer-3 p{
+		font-size: 0.8rem;
+	}
+
+	.footer-3 h4{
+		font-size: 0.9rem;
+	}
+
+	.footer-2 h4{
+		margin-top: 2rem;
+	}
+
+	#form-container{
+	font-size: 0.7rem;
+	width: 100%;
+	padding-top: 1rem;
+}
+
+.btn-custom{
+	color: #fff;
+	background-color: #ed252f;
+	border: none;
+	width: 90px;
+	height: 20px;
+	border-radius: 0.1rem;
+}
+
+#form-container input{
+	height: 25px;
+	width: 100%;
+}
+
+.form-custom input{
+	font-size: 0.8rem;
+}
+
+.form-custom select{
+	font-size: 0.8rem;
+}
+
+.form-custom textarea{
+	font-size: 0.8rem;
+}
+
+.custom-txt{
+	background: linear-gradient(263.99deg, #ED252F -0.74%, #ED6D25 99.35%);
+	width: 200px;
+}
+
+}
+
+@media(max-width: 520px){
+
+	.section-1{
+		height: 420px;
+	}
+
+	.section-1 h1{
+		font-size: 1rem;
+	}
+
+	.section-1 p{
+		font-size: 0.6rem;
+	}
+
+
+	.section-2{
+		height: 568px;
+	}
+
+	.section-2 img{
+		width: 2rem;
+	}
+
+	#form-container{
+		height: 500px;
+		top: 23%;
+	}
+
+	.social{
+	width: 200px;
+}
+
+.social li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	background: #fff;
+	background: linear-gradient(to right bottom,
+	 rgba(255, 255, 255, 0.1),
+	 rgba(255, 255, 255, 0.1));
+	border-radius: 50%;
+}
+
+.section-1-sub p{
+	display: none;
+}
+
+}
+
+
+
